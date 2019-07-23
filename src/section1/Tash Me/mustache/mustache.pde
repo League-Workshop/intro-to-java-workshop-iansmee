@@ -7,9 +7,8 @@ void setup(){
   catface.resize(width,height);
   mustache = loadImage("Moustache.png");
   mustache.resize(280,190);
-  hat = loadImage(hat);
-  size(400,400);
-  hat.resize(width,height);
+  hat = loadImage("hat.png");
+  hat.resize(400,400);
 }
 void draw(){
   background(catface);
